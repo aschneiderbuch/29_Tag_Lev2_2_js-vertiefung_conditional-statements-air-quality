@@ -59,6 +59,11 @@ else if (vergleich >100 && vergleich <= 150){
     ergebnisEffect = "Generable public not likely affected";
     ergebnisBackgroundColorClass = "red";
 }
+else {
+    ergebnisConcern = "Fehler !!!";
+    ergebnisEffect = "Fehler!!!";
+    ergebnisBackgroundColorClass = "#443c3c"
+}
 
 
 
