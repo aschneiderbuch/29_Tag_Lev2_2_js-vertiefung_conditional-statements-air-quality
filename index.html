@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +11,21 @@
         sass --watch assets/scss/main.scss assets/css/style.css
      -->
 </head>
+
 <body>
     <h1>test</h1>
-    
+
+    <form action="" onsubmit="return false">
+        <h2>Luftqualität</h2>
+
+        <label id="labelLuftqualität" for="luftqualität">Luftqualität:</label>
+        <input type="range" name="luftqulität" id="luftqualität" min="0" max="150" value="50">
+        <!--  beginnt mit value 50 als default und nicht bei 0 -->
+
+    </form>
+
 
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
